@@ -16,7 +16,8 @@ INSERT INTO `dbChronoSchedule`.`shifts`(`name`, `startTime`, `endTime`, `color`)
 VALUES ('Free', '07:00', '14:00', '4FF943'),    -- ID-1
 	   ('Morning', '07:00', '14:00', 'E8A7A7'), -- ID-2
        ('Evening', '14:00', '22:00', '4CB9FC'), -- ID-3
-       ('Night', '22:00', '07:00', '9B6EBC');   -- ID-4
+       ('Night', '22:00', '07:00', '9B6EBC'),   -- ID-4
+       ('Midnight', '23:30', '4:30', 'F6F874'); -- ID-5
        
 
 
