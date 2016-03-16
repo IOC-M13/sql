@@ -8,7 +8,8 @@ TRUNCATE `dbChronoSchedule`.`users`;
 INSERT INTO `dbChronoSchedule`.`users`(`userDni`, `userName`, `realName`, `pass`, `admin`)
 VALUES ('99440859D', 'armando', 'Armando Bronca Fuerte', '1234', false), -- ID-1
        ('39440859E', 'oscar', 'Oscar Membrilla Estorach', '1234', true), -- ID-2
-       ('39646585H', 'alex', 'Alejandro Oliván Alvarez', '1234', true);  -- ID-3
+       ('39646585H', 'alex', 'Alejandro Oliván Alvarez', '1234', true),  -- ID-3
+       ('00000000X', 'admin', 'Administrador', '1234', true); -- ID-4
 
 
 TRUNCATE `dbChronoSchedule`.`shifts`;
