@@ -14,7 +14,7 @@ VALUES ('99440859D', 'armando', 'Armando Bronca Fuerte', '1234', false), -- ID-1
 
 TRUNCATE `dbChronoSchedule`.`Shifts`;
 INSERT INTO `dbChronoSchedule`.`Shifts`(`name`, `startTime`, `endTime`, `color`)
-VALUES ('Free', '07:00', '14:00', '4FF943'),    -- ID-1
+VALUES ('Free', '00:00', '00:00', '4FF943'),    -- ID-1
 	   ('Morning', '07:00', '14:00', 'E8A7A7'), -- ID-2
        ('Evening', '14:00', '22:00', '4CB9FC'), -- ID-3
        ('Night', '22:00', '07:00', '9B6EBC'),   -- ID-4
